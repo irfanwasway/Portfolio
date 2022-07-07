@@ -16,22 +16,24 @@
         </div>
         <ul class="nav_link_list">
             <li>
-                <a href="" class="nav_link_anchor link_hover_effect link_hover_black">Projects</a>
+                <a href="#projects_title" class="nav_link_anchor link_hover_effect link_hover_black" id="projects_button">Projects</a>
                 <a href="" class="nav_link_anchor nav_link_anchor_primary">Contact</a>
             </li>
         </ul>
     </nav>
-
+    
     <section class="intro">
         <h1 class="text_orange">Irfan Wasway</h1>
         <div class="about">
-            <ul>
+            <ul class="my_details">
                 <li>Student</li>
                 <li>Frontend Developer</li>
             </ul> 
         </div>
         <div class="about_paragraph">
-            <p>Hi! I'm Irfan Wasway, and I'm a frontend developer that enjoys creating immersive and creative websites.</p>
+            <p>
+                Hi! I'm <strong class="text_orange">Irfan Wasway</strong>, and I'm a <strong class="text_orange"> frontend developer </strong> that enjoys creating immersive and creative websites.
+            </p>
         </div>
         <div class="icons">
             <a href="https://github.com/irfanwasway" target="_blank" id="github_icon">
@@ -40,12 +42,36 @@
             <a href="mailto:irfan.wasway@gmail.com">
                 <i class="fas fa-envelope"></i>
             </a>
+            <!-- Temporarily hidden as I do not have a resume yet
             <a href="">
                 <i class="fas fa-file-pdf"></i>
             </a>
+            -->
         </div>
     </section>
-
+    <section class="projects">
+        <div class="container">
+            <div class="row">
+                <div id="projects_title">
+                    <h2 class="section_title">
+                        Here are some of my <strong class="text_orange">projects</strong>
+                    </h2>
+                </div>
+                <ul class="project_list">
+                    <li class="project">
+                        <div class="project_wrapper">
+                            <img src="./360_F_211441013_y393LfFZLuWPKt8aBjgp3qpIVlKv3Dps.jpg" class="project_img" alt="">
+                            <div class="image_overlay .image_overlay_blur">
+                                <div class="image_title">
+                                    Coming Soon
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
